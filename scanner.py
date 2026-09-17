@@ -67,7 +67,7 @@ class OpportunityScanner:
                 "query_matched": source["query"]
             }
             for item in mock_data.get(source["name"], [])
-        ]
+        
     
         def extract_problem(self, signal: Dict) -> Dict:
         """
