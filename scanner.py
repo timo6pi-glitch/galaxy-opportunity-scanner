@@ -67,9 +67,9 @@ class OpportunityScanner:
                 "query_matched": source["query"]
             }
             for item in mock_data.get(source["name"], [])
-        
+        ]
     
-        def extract_problem(self, signal: Dict) -> Dict:
+    def extract_problem(self, signal: Dict) -> Dict:
         """
         Extrait le problème mentionné dans un signal
         Version simple sans LLM - détecte les mots-clés
