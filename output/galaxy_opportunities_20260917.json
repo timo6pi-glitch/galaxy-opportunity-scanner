@@ -1,5 +1,5 @@
 {
-  "scan_date": "2026-09-17T12:42:11.155795",
+  "scan_date": "2026-09-17T14:16:37.566452",
   "total_opportunities": 5,
   "opportunities": [
     {
@@ -12,7 +12,7 @@
         "source_signal": {
           "source": "Twitter",
           "text": "I'm losing 20% of my revenue to late invoices. Need a better system.",
-          "date": "2026-09-17T12:42:11.155586",
+          "date": "2026-09-17T14:16:37.566190",
           "author": "@freelance_dev",
           "query_matched": "freelance invoice late OR client hasn't paid"
         },
@@ -26,8 +26,7 @@
         "mvp_features": [
           "CSV upload of invoices",
           "Automatic email reminders at J+1, J+7, J+14",
-          "Weekly report of late payments",
-          "Integration with Stripe/PayPal"
+          "Weekly report of late payments"
         ],
         "estimated_market_size": "500k+ freelancers in EU/US",
         "problem_reference": {
@@ -38,7 +37,7 @@
           "source_signal": {
             "source": "Twitter",
             "text": "I'm losing 20% of my revenue to late invoices. Need a better system.",
-            "date": "2026-09-17T12:42:11.155586",
+            "date": "2026-09-17T14:16:37.566190",
             "author": "@freelance_dev",
             "query_matched": "freelance invoice late OR client hasn't paid"
           },
@@ -46,7 +45,7 @@
           "frequency": 7
         }
       },
-      "timestamp": "2026-09-17T12:42:11.155719"
+      "timestamp": "2026-09-17T14:16:37.566325"
     },
     {
       "score": 0.3,
@@ -58,7 +57,7 @@
         "source_signal": {
           "source": "Twitter",
           "text": "Looking for a tool to track employee certifications. Excel is a nightmare.",
-          "date": "2026-09-17T12:42:11.155593",
+          "date": "2026-09-17T14:16:37.566258",
           "author": "@hr_manager",
           "query_matched": "freelance invoice late OR client hasn't paid"
         },
@@ -66,16 +65,16 @@
         "frequency": 4
       },
       "business_idea": {
-        "idea": "Automated invoice reminder SaaS for freelancers",
-        "target_customer": "Freelance developers and designers earning 3k-10k€/month",
-        "price_point": "19€/month or 5% of recovered revenue",
+        "idea": "Employee certification tracking platform",
+        "target_customer": "HR managers and compliance officers in companies 50-500 employees",
+        "price_point": "99€/month for unlimited certifications",
         "mvp_features": [
-          "CSV upload of invoices",
-          "Automatic email reminders at J+1, J+7, J+14",
-          "Weekly report of late payments",
-          "Integration with Stripe/PayPal"
+          "Google Sheets import",
+          "Automated email reminders (J-30, J-7, J-1)",
+          "Compliance dashboard for managers",
+          "Auto-renewal workflow"
         ],
-        "estimated_market_size": "500k+ freelancers in EU/US",
+        "estimated_market_size": "100k+ companies in EU/US",
         "problem_reference": {
           "problem": "Employee certification tracking",
           "who_has_it": "HR managers and small business owners",
@@ -84,7 +83,7 @@
           "source_signal": {
             "source": "Twitter",
             "text": "Looking for a tool to track employee certifications. Excel is a nightmare.",
-            "date": "2026-09-17T12:42:11.155593",
+            "date": "2026-09-17T14:16:37.566258",
             "author": "@hr_manager",
             "query_matched": "freelance invoice late OR client hasn't paid"
           },
@@ -92,7 +91,7 @@
           "frequency": 4
         }
       },
-      "timestamp": "2026-09-17T12:42:11.155726"
+      "timestamp": "2026-09-17T14:16:37.566333"
     },
     {
       "score": 0.3,
@@ -104,7 +103,7 @@
         "source_signal": {
           "source": "Twitter",
           "text": "Google Reviews saved my plumbing business. Went from 10 to 100+ reviews in 3 months.",
-          "date": "2026-09-17T12:42:11.155594",
+          "date": "2026-09-17T14:16:37.566259",
           "author": "@plumber_bob",
           "query_matched": "freelance invoice late OR client hasn't paid"
         },
@@ -112,16 +111,16 @@
         "frequency": 3
       },
       "business_idea": {
-        "idea": "Automated invoice reminder SaaS for freelancers",
-        "target_customer": "Freelance developers and designers earning 3k-10k€/month",
-        "price_point": "19€/month or 5% of recovered revenue",
+        "idea": "Automated Google Reviews request system for local businesses",
+        "target_customer": "Plumbers, electricians, restaurants, salons (local services)",
+        "price_point": "49€/month or 2€ per new review",
         "mvp_features": [
-          "CSV upload of invoices",
-          "Automatic email reminders at J+1, J+7, J+14",
-          "Weekly report of late payments",
-          "Integration with Stripe/PayPal"
+          "SMS/email automation after service",
+          "Direct link to Google Reviews",
+          "Review tracking dashboard",
+          "Follow-up for non-responders"
         ],
-        "estimated_market_size": "500k+ freelancers in EU/US",
+        "estimated_market_size": "1M+ local businesses in EU/US",
         "problem_reference": {
           "problem": "Getting more Google Reviews for local business",
           "who_has_it": "Local business owners (plumbers, restaurants, salons)",
@@ -130,7 +129,7 @@
           "source_signal": {
             "source": "Twitter",
             "text": "Google Reviews saved my plumbing business. Went from 10 to 100+ reviews in 3 months.",
-            "date": "2026-09-17T12:42:11.155594",
+            "date": "2026-09-17T14:16:37.566259",
             "author": "@plumber_bob",
             "query_matched": "freelance invoice late OR client hasn't paid"
           },
@@ -138,7 +137,7 @@
           "frequency": 3
         }
       },
-      "timestamp": "2026-09-17T12:42:11.155732"
+      "timestamp": "2026-09-17T14:16:37.566340"
     },
     {
       "score": 0.3,
@@ -150,23 +149,23 @@
         "source_signal": {
           "source": "Product Hunt",
           "text": "Just launched: AI tool for automating customer support",
-          "date": "2026-09-17T12:42:11.155669",
+          "date": "2026-09-17T14:16:37.566272",
           "author": "@ph_maker",
           "query_matched": "new launch SaaS"
         },
         "pain_level": "high"
       },
       "business_idea": {
-        "idea": "Automated invoice reminder SaaS for freelancers",
-        "target_customer": "Freelance developers and designers earning 3k-10k€/month",
-        "price_point": "19€/month or 5% of recovered revenue",
+        "idea": "Launch accelerator for indie hackers",
+        "target_customer": "Solo founders launching their first SaaS",
+        "price_point": "199€ one-time or 29€/month",
         "mvp_features": [
-          "CSV upload of invoices",
-          "Automatic email reminders at J+1, J+7, J+14",
-          "Weekly report of late payments",
-          "Integration with Stripe/PayPal"
+          "Product Hunt launch checklist",
+          "Pre-launch email sequence templates",
+          "Early adopter finder tool",
+          "Launch day analytics dashboard"
         ],
-        "estimated_market_size": "500k+ freelancers in EU/US",
+        "estimated_market_size": "50k+ indie hackers launching per year",
         "problem_reference": {
           "problem": "Launching and getting first customers for a new SaaS",
           "who_has_it": "Indie hackers and solo founders",
@@ -175,14 +174,14 @@
           "source_signal": {
             "source": "Product Hunt",
             "text": "Just launched: AI tool for automating customer support",
-            "date": "2026-09-17T12:42:11.155669",
+            "date": "2026-09-17T14:16:37.566272",
             "author": "@ph_maker",
             "query_matched": "new launch SaaS"
           },
           "pain_level": "high"
         }
       },
-      "timestamp": "2026-09-17T12:42:11.155738"
+      "timestamp": "2026-09-17T14:16:37.566346"
     },
     {
       "score": 0.3,
@@ -194,23 +193,23 @@
         "source_signal": {
           "source": "Indie Hackers",
           "text": "How I recovered 30% of lost revenue with better dunning",
-          "date": "2026-09-17T12:42:11.155675",
+          "date": "2026-09-17T14:16:37.566280",
           "author": "@saas_jane",
           "query_matched": "revenue OR MRR OR launched"
         },
         "pain_level": "medium"
       },
       "business_idea": {
-        "idea": "Automated invoice reminder SaaS for freelancers",
-        "target_customer": "Freelance developers and designers earning 3k-10k€/month",
-        "price_point": "19€/month or 5% of recovered revenue",
+        "idea": "Business automation audit + implementation",
+        "target_customer": "Small business owners drowning in manual work",
+        "price_point": "499€ audit + 99€/month implementation",
         "mvp_features": [
-          "CSV upload of invoices",
-          "Automatic email reminders at J+1, J+7, J+14",
-          "Weekly report of late payments",
-          "Integration with Stripe/PayPal"
+          "Process mapping workshop",
+          "Automation roadmap (Zapier/Make)",
+          "Implementation of top 3 automations",
+          "Monthly optimization calls"
         ],
-        "estimated_market_size": "500k+ freelancers in EU/US",
+        "estimated_market_size": "10M+ small businesses in EU/US",
         "problem_reference": {
           "problem": "General business inefficiency",
           "who_has_it": "Small business owners and freelancers",
@@ -219,14 +218,14 @@
           "source_signal": {
             "source": "Indie Hackers",
             "text": "How I recovered 30% of lost revenue with better dunning",
-            "date": "2026-09-17T12:42:11.155675",
+            "date": "2026-09-17T14:16:37.566280",
             "author": "@saas_jane",
             "query_matched": "revenue OR MRR OR launched"
           },
           "pain_level": "medium"
         }
       },
-      "timestamp": "2026-09-17T12:42:11.155743"
+      "timestamp": "2026-09-17T14:16:37.566352"
     }
   ]
 }
