@@ -1,0 +1,52 @@
+{
+  "scan_date": "2026-09-17T12:05:21.787911",
+  "total_opportunities": 1,
+  "opportunities": [
+    {
+      "score": 0.3,
+      "problem": {
+        "problem": "Late invoice payments",
+        "who_has_it": "Freelance developers and designers",
+        "how_often": "20% of revenue lost",
+        "current_solution": "Manual tracking in Excel, sending reminder emails",
+        "source_signal": {
+          "source": "Twitter",
+          "text": "I'm losing 20% of my revenue to late invoices. Need a better system.",
+          "date": "2026-09-17T12:05:21.787814",
+          "author": "@freelance_dev",
+          "query_matched": "freelance invoice late OR client hasn't paid"
+        },
+        "pain_level": "high",
+        "frequency": 10
+      },
+      "business_idea": {
+        "idea": "Automated invoice reminder SaaS for freelancers",
+        "target_customer": "Freelance developers and designers earning 3k-10k€/month",
+        "price_point": "19€/month or 5% of recovered revenue",
+        "mvp_features": [
+          "CSV upload of invoices",
+          "Automatic email reminders at J+1, J+7, J+14",
+          "Weekly report of late payments",
+          "Integration with Stripe/PayPal"
+        ],
+        "estimated_market_size": "500k+ freelancers in EU/US",
+        "problem_reference": {
+          "problem": "Late invoice payments",
+          "who_has_it": "Freelance developers and designers",
+          "how_often": "20% of revenue lost",
+          "current_solution": "Manual tracking in Excel, sending reminder emails",
+          "source_signal": {
+            "source": "Twitter",
+            "text": "I'm losing 20% of my revenue to late invoices. Need a better system.",
+            "date": "2026-09-17T12:05:21.787814",
+            "author": "@freelance_dev",
+            "query_matched": "freelance invoice late OR client hasn't paid"
+          },
+          "pain_level": "high",
+          "frequency": 10
+        }
+      },
+      "timestamp": "2026-09-17T12:05:21.787861"
+    }
+  ]
+}
