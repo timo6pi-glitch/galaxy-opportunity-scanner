@@ -69,22 +69,70 @@ class OpportunityScanner:
             for item in mock_data.get(source["name"], [])
         ]
     
-    def extract_problem(self, signal: Dict) -> Dict:
+        def extract_problem(self, signal: Dict) -> Dict:
         """
         Extrait le problème mentionné dans un signal
-        Utilise un LLM (Claude, GPT-4) pour l'extraction
+        Version simple sans LLM - détecte les mots-clés
         """
-        # TODO: Appeler Claude API ou GPT-4 API ici
-        # Prompt: "Extract the business problem from this text. Return JSON: {problem, who_has_it, how_often, current_solution}"
+        text = signal["text"].lower()
         
-        problem = {
-            "problem": "Late invoice payments",
-            "who_has_it": "Freelance developers and designers",
-            "how_often": "20% of revenue lost",
-            "current_solution": "Manual tracking in Excel, sending reminder emails",
-            "source_signal": signal,
-            "pain_level": "high"
-        }
+        # Détection du problème selon les mots-clés
+        if "invoice" in text or "payment" in text or "paid late" in text:
+            problem = {
+                "problem": "Late invoice payments",
+                "who_has_it": "Freelance developers and designers",
+                "how_often": "20% of revenue lost",
+                "current_solution": "Manual tracking in Excel, sending reminder emails",
+                "source_signal": signal,
+                "pain_level": "high"
+            }
+        elif "certification" in text or "renewal" in text or "excel is a nightmare" in text:
+            problem = {
+                "problem": "Employee certification tracking",
+                "who_has_it": "HR managers and small business owners",
+                "how_often": "Multiple certifications per employee, renewed yearly",
+                "current_solution": "Excel spreadsheets, manual reminders",
+                "source_signal": signal,
+                "pain_level": "high"
+            }
+        elif "churn" in text or "failed payment" in text or "subscription" in text:
+            problem = {
+                "problem": "Subscription churn from failed payments",
+                "who_has_it": "SaaS founders with recurring revenue",
+                "how_often": "40% of churn is involuntary (failed cards)",
+                "current_solution": "Stripe default dunning, manual recovery",
+                "source_signal": signal,
+                "pain_level": "critical"
+            }
+        elif "google reviews" in text or "reviews" in text:
+            problem = {
+                "problem": "Getting more Google Reviews for local business",
+                "who_has_it": "Local business owners (plumbers, restaurants, salons)",
+                "how_often": "Need 5-10 new reviews per month",
+                "current_solution": "Asking customers manually, no automation",
+                "source_signal": signal,
+                "pain_level": "medium"
+            }
+        elif "launched" in text or "new saas" in text or "just launched" in text:
+            problem = {
+                "problem": "Launching and getting first customers for a new SaaS",
+                "who_has_it": "Indie hackers and solo founders",
+                "how_often": "Every new product launch",
+                "current_solution": "Product Hunt, Twitter, cold outreach",
+                "source_signal": signal,
+                "pain_level": "high"
+            }
+        else:
+            # Problème par défaut
+            problem = {
+                "problem": "General business inefficiency",
+                "who_has_it": "Small business owners and freelancers",
+                "how_often": "Daily operational challenges",
+                "current_solution": "Manual processes, spreadsheets",
+                "source_signal": signal,
+                "pain_level": "medium"
+            }
+        
         return problem
     
     def score_opportunity(self, problem: Dict) -> float:
