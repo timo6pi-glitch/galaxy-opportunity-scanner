@@ -1,5 +1,5 @@
 {
-  "scan_date": "2026-09-17T12:33:05.459776",
+  "scan_date": "2026-09-17T12:42:11.155795",
   "total_opportunities": 5,
   "opportunities": [
     {
@@ -12,7 +12,7 @@
         "source_signal": {
           "source": "Twitter",
           "text": "I'm losing 20% of my revenue to late invoices. Need a better system.",
-          "date": "2026-09-17T12:33:05.459616",
+          "date": "2026-09-17T12:42:11.155586",
           "author": "@freelance_dev",
           "query_matched": "freelance invoice late OR client hasn't paid"
         },
@@ -38,7 +38,7 @@
           "source_signal": {
             "source": "Twitter",
             "text": "I'm losing 20% of my revenue to late invoices. Need a better system.",
-            "date": "2026-09-17T12:33:05.459616",
+            "date": "2026-09-17T12:42:11.155586",
             "author": "@freelance_dev",
             "query_matched": "freelance invoice late OR client hasn't paid"
           },
@@ -46,7 +46,7 @@
           "frequency": 7
         }
       },
-      "timestamp": "2026-09-17T12:33:05.459717"
+      "timestamp": "2026-09-17T12:42:11.155719"
     },
     {
       "score": 0.3,
@@ -58,7 +58,7 @@
         "source_signal": {
           "source": "Twitter",
           "text": "Looking for a tool to track employee certifications. Excel is a nightmare.",
-          "date": "2026-09-17T12:33:05.459622",
+          "date": "2026-09-17T12:42:11.155593",
           "author": "@hr_manager",
           "query_matched": "freelance invoice late OR client hasn't paid"
         },
@@ -84,7 +84,7 @@
           "source_signal": {
             "source": "Twitter",
             "text": "Looking for a tool to track employee certifications. Excel is a nightmare.",
-            "date": "2026-09-17T12:33:05.459622",
+            "date": "2026-09-17T12:42:11.155593",
             "author": "@hr_manager",
             "query_matched": "freelance invoice late OR client hasn't paid"
           },
@@ -92,7 +92,7 @@
           "frequency": 4
         }
       },
-      "timestamp": "2026-09-17T12:33:05.459721"
+      "timestamp": "2026-09-17T12:42:11.155726"
     },
     {
       "score": 0.3,
@@ -104,7 +104,7 @@
         "source_signal": {
           "source": "Twitter",
           "text": "Google Reviews saved my plumbing business. Went from 10 to 100+ reviews in 3 months.",
-          "date": "2026-09-17T12:33:05.459623",
+          "date": "2026-09-17T12:42:11.155594",
           "author": "@plumber_bob",
           "query_matched": "freelance invoice late OR client hasn't paid"
         },
@@ -130,7 +130,7 @@
           "source_signal": {
             "source": "Twitter",
             "text": "Google Reviews saved my plumbing business. Went from 10 to 100+ reviews in 3 months.",
-            "date": "2026-09-17T12:33:05.459623",
+            "date": "2026-09-17T12:42:11.155594",
             "author": "@plumber_bob",
             "query_matched": "freelance invoice late OR client hasn't paid"
           },
@@ -138,7 +138,7 @@
           "frequency": 3
         }
       },
-      "timestamp": "2026-09-17T12:33:05.459726"
+      "timestamp": "2026-09-17T12:42:11.155732"
     },
     {
       "score": 0.3,
@@ -150,7 +150,7 @@
         "source_signal": {
           "source": "Product Hunt",
           "text": "Just launched: AI tool for automating customer support",
-          "date": "2026-09-17T12:33:05.459682",
+          "date": "2026-09-17T12:42:11.155669",
           "author": "@ph_maker",
           "query_matched": "new launch SaaS"
         },
@@ -175,14 +175,14 @@
           "source_signal": {
             "source": "Product Hunt",
             "text": "Just launched: AI tool for automating customer support",
-            "date": "2026-09-17T12:33:05.459682",
+            "date": "2026-09-17T12:42:11.155669",
             "author": "@ph_maker",
             "query_matched": "new launch SaaS"
           },
           "pain_level": "high"
         }
       },
-      "timestamp": "2026-09-17T12:33:05.459730"
+      "timestamp": "2026-09-17T12:42:11.155738"
     },
     {
       "score": 0.3,
@@ -194,7 +194,7 @@
         "source_signal": {
           "source": "Indie Hackers",
           "text": "How I recovered 30% of lost revenue with better dunning",
-          "date": "2026-09-17T12:33:05.459685",
+          "date": "2026-09-17T12:42:11.155675",
           "author": "@saas_jane",
           "query_matched": "revenue OR MRR OR launched"
         },
@@ -219,14 +219,14 @@
           "source_signal": {
             "source": "Indie Hackers",
             "text": "How I recovered 30% of lost revenue with better dunning",
-            "date": "2026-09-17T12:33:05.459685",
+            "date": "2026-09-17T12:42:11.155675",
             "author": "@saas_jane",
             "query_matched": "revenue OR MRR OR launched"
           },
           "pain_level": "medium"
         }
       },
-      "timestamp": "2026-09-17T12:33:05.459734"
+      "timestamp": "2026-09-17T12:42:11.155743"
     }
   ]
 }
