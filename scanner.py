@@ -28,23 +28,45 @@ class OpportunityScanner:
         Simule un scan de source (à remplacer par de vraies API)
         Retourne une liste de posts/signaux avec : source, texte, date, auteur
         """
-        # TODO: Implémenter les vrais appels API (Twitter API v2, Reddit API, etc.)
-        # Pour l'instant, données mockées pour tester la logique
+        # Données mockées variées pour tester
+        mock_data = {
+            "Twitter": [
+                {"text": "I'm losing 20% of my revenue to late invoices. Need a better system.", "author": "@freelance_dev"},
+                {"text": "Spent 5 hours this week chasing unpaid invoices. This is not what I signed up for.", "author": "@designer_pro"},
+                {"text": "My SaaS churn is 40% because of failed payments. Stripe dunning is not enough.", "author": "@saas_founder"},
+                {"text": "Looking for a tool to track employee certifications. Excel is a nightmare.", "author": "@hr_manager"},
+                {"text": "Google Reviews saved my plumbing business. Went from 10 to 100+ reviews in 3 months.", "author": "@plumber_bob"},
+            ],
+            "Reddit": [
+                {"text": "How do you handle certification renewals for your team? Excel is a nightmare.", "author": "u/hr_manager"},
+                {"text": "Anyone else losing sleep over failed subscription payments?", "author": "u/saas_builder"},
+                {"text": "Best way to get more Google Reviews for my local business?", "author": "u/small_biz_owner"},
+                {"text": "Freelancers: what % of your invoices are paid late?", "author": "u/freelance_dev"},
+            ],
+            "Product Hunt": [
+                {"text": "Just launched: AI tool for automating customer support", "author": "@ph_maker"},
+                {"text": "New SaaS: Invoice tracking for freelancers", "author": "@indie_founder"},
+            ],
+            "Indie Hackers": [
+                {"text": "Hit $5k MRR with my certification tracking tool", "author": "@builder_mike"},
+                {"text": "How I recovered 30% of lost revenue with better dunning", "author": "@saas_jane"},
+            ],
+            "Google Trends": [
+                {"text": "Rising: invoice automation software", "author": "trends_bot"},
+                {"text": "Rising: employee certification management", "author": "trends_bot"},
+                {"text": "Rising: Google Reviews for local business", "author": "trends_bot"},
+            ],
+        }
+        
         return [
             {
                 "source": source["name"],
-                "text": "I'm losing 20% of my revenue to late invoices. Need a better system.",
+                "text": item["text"],
                 "date": datetime.now().isoformat(),
-                "author": "@freelance_dev",
-                "query_matched": source["query"]
-            },
-            {
-                "source": source["name"],
-                "text": "Spent 5 hours this week chasing unpaid invoices. This is not what I signed up for as a freelancer.",
-                "date": datetime.now().isoformat(),
-                "author": "u/designer_pro",
+                "author": item["author"],
                 "query_matched": source["query"]
             }
+            for item in mock_data.get(source["name"], [])
         ]
     
     def extract_problem(self, signal: Dict) -> Dict:
