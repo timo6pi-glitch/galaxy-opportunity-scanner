@@ -1,0 +1,231 @@
+{
+  "scan_date": "2026-09-21T03:40:21.910326",
+  "total_opportunities": 5,
+  "opportunities": [
+    {
+      "score": 0.3,
+      "problem": {
+        "problem": "Late invoice payments",
+        "who_has_it": "Freelance developers and designers",
+        "how_often": "20% of revenue lost",
+        "current_solution": "Manual tracking in Excel, sending reminder emails",
+        "source_signal": {
+          "source": "Twitter",
+          "text": "I'm losing 20% of my revenue to late invoices. Need a better system.",
+          "date": "2026-09-21T03:40:21.910105",
+          "author": "@freelance_dev",
+          "query_matched": "freelance invoice late OR client hasn't paid"
+        },
+        "pain_level": "high",
+        "frequency": 7
+      },
+      "business_idea": {
+        "idea": "Automated invoice reminder SaaS for freelancers",
+        "target_customer": "Freelance developers and designers earning 3k-10k€/month",
+        "price_point": "19€/month or 5% of recovered revenue",
+        "mvp_features": [
+          "CSV upload of invoices",
+          "Automatic email reminders at J+1, J+7, J+14",
+          "Weekly report of late payments"
+        ],
+        "estimated_market_size": "500k+ freelancers in EU/US",
+        "problem_reference": {
+          "problem": "Late invoice payments",
+          "who_has_it": "Freelance developers and designers",
+          "how_often": "20% of revenue lost",
+          "current_solution": "Manual tracking in Excel, sending reminder emails",
+          "source_signal": {
+            "source": "Twitter",
+            "text": "I'm losing 20% of my revenue to late invoices. Need a better system.",
+            "date": "2026-09-21T03:40:21.910105",
+            "author": "@freelance_dev",
+            "query_matched": "freelance invoice late OR client hasn't paid"
+          },
+          "pain_level": "high",
+          "frequency": 7
+        }
+      },
+      "timestamp": "2026-09-21T03:40:21.910245"
+    },
+    {
+      "score": 0.3,
+      "problem": {
+        "problem": "Employee certification tracking",
+        "who_has_it": "HR managers and small business owners",
+        "how_often": "Multiple certifications per employee, renewed yearly",
+        "current_solution": "Excel spreadsheets, manual reminders",
+        "source_signal": {
+          "source": "Twitter",
+          "text": "Looking for a tool to track employee certifications. Excel is a nightmare.",
+          "date": "2026-09-21T03:40:21.910176",
+          "author": "@hr_manager",
+          "query_matched": "freelance invoice late OR client hasn't paid"
+        },
+        "pain_level": "high",
+        "frequency": 4
+      },
+      "business_idea": {
+        "idea": "Employee certification tracking platform",
+        "target_customer": "HR managers and compliance officers in companies 50-500 employees",
+        "price_point": "99€/month for unlimited certifications",
+        "mvp_features": [
+          "Google Sheets import",
+          "Automated email reminders (J-30, J-7, J-1)",
+          "Compliance dashboard for managers",
+          "Auto-renewal workflow"
+        ],
+        "estimated_market_size": "100k+ companies in EU/US",
+        "problem_reference": {
+          "problem": "Employee certification tracking",
+          "who_has_it": "HR managers and small business owners",
+          "how_often": "Multiple certifications per employee, renewed yearly",
+          "current_solution": "Excel spreadsheets, manual reminders",
+          "source_signal": {
+            "source": "Twitter",
+            "text": "Looking for a tool to track employee certifications. Excel is a nightmare.",
+            "date": "2026-09-21T03:40:21.910176",
+            "author": "@hr_manager",
+            "query_matched": "freelance invoice late OR client hasn't paid"
+          },
+          "pain_level": "high",
+          "frequency": 4
+        }
+      },
+      "timestamp": "2026-09-21T03:40:21.910253"
+    },
+    {
+      "score": 0.3,
+      "problem": {
+        "problem": "Getting more Google Reviews for local business",
+        "who_has_it": "Local business owners (plumbers, restaurants, salons)",
+        "how_often": "Need 5-10 new reviews per month",
+        "current_solution": "Asking customers manually, no automation",
+        "source_signal": {
+          "source": "Twitter",
+          "text": "Google Reviews saved my plumbing business. Went from 10 to 100+ reviews in 3 months.",
+          "date": "2026-09-21T03:40:21.910177",
+          "author": "@plumber_bob",
+          "query_matched": "freelance invoice late OR client hasn't paid"
+        },
+        "pain_level": "medium",
+        "frequency": 3
+      },
+      "business_idea": {
+        "idea": "Automated Google Reviews request system for local businesses",
+        "target_customer": "Plumbers, electricians, restaurants, salons (local services)",
+        "price_point": "49€/month or 2€ per new review",
+        "mvp_features": [
+          "SMS/email automation after service",
+          "Direct link to Google Reviews",
+          "Review tracking dashboard",
+          "Follow-up for non-responders"
+        ],
+        "estimated_market_size": "1M+ local businesses in EU/US",
+        "problem_reference": {
+          "problem": "Getting more Google Reviews for local business",
+          "who_has_it": "Local business owners (plumbers, restaurants, salons)",
+          "how_often": "Need 5-10 new reviews per month",
+          "current_solution": "Asking customers manually, no automation",
+          "source_signal": {
+            "source": "Twitter",
+            "text": "Google Reviews saved my plumbing business. Went from 10 to 100+ reviews in 3 months.",
+            "date": "2026-09-21T03:40:21.910177",
+            "author": "@plumber_bob",
+            "query_matched": "freelance invoice late OR client hasn't paid"
+          },
+          "pain_level": "medium",
+          "frequency": 3
+        }
+      },
+      "timestamp": "2026-09-21T03:40:21.910260"
+    },
+    {
+      "score": 0.3,
+      "problem": {
+        "problem": "Launching and getting first customers for a new SaaS",
+        "who_has_it": "Indie hackers and solo founders",
+        "how_often": "Every new product launch",
+        "current_solution": "Product Hunt, Twitter, cold outreach",
+        "source_signal": {
+          "source": "Product Hunt",
+          "text": "Just launched: AI tool for automating customer support",
+          "date": "2026-09-21T03:40:21.910191",
+          "author": "@ph_maker",
+          "query_matched": "new launch SaaS"
+        },
+        "pain_level": "high"
+      },
+      "business_idea": {
+        "idea": "Launch accelerator for indie hackers",
+        "target_customer": "Solo founders launching their first SaaS",
+        "price_point": "199€ one-time or 29€/month",
+        "mvp_features": [
+          "Product Hunt launch checklist",
+          "Pre-launch email sequence templates",
+          "Early adopter finder tool",
+          "Launch day analytics dashboard"
+        ],
+        "estimated_market_size": "50k+ indie hackers launching per year",
+        "problem_reference": {
+          "problem": "Launching and getting first customers for a new SaaS",
+          "who_has_it": "Indie hackers and solo founders",
+          "how_often": "Every new product launch",
+          "current_solution": "Product Hunt, Twitter, cold outreach",
+          "source_signal": {
+            "source": "Product Hunt",
+            "text": "Just launched: AI tool for automating customer support",
+            "date": "2026-09-21T03:40:21.910191",
+            "author": "@ph_maker",
+            "query_matched": "new launch SaaS"
+          },
+          "pain_level": "high"
+        }
+      },
+      "timestamp": "2026-09-21T03:40:21.910267"
+    },
+    {
+      "score": 0.3,
+      "problem": {
+        "problem": "General business inefficiency",
+        "who_has_it": "Small business owners and freelancers",
+        "how_often": "Daily operational challenges",
+        "current_solution": "Manual processes, spreadsheets",
+        "source_signal": {
+          "source": "Indie Hackers",
+          "text": "How I recovered 30% of lost revenue with better dunning",
+          "date": "2026-09-21T03:40:21.910200",
+          "author": "@saas_jane",
+          "query_matched": "revenue OR MRR OR launched"
+        },
+        "pain_level": "medium"
+      },
+      "business_idea": {
+        "idea": "Business automation audit + implementation",
+        "target_customer": "Small business owners drowning in manual work",
+        "price_point": "499€ audit + 99€/month implementation",
+        "mvp_features": [
+          "Process mapping workshop",
+          "Automation roadmap (Zapier/Make)",
+          "Implementation of top 3 automations",
+          "Monthly optimization calls"
+        ],
+        "estimated_market_size": "10M+ small businesses in EU/US",
+        "problem_reference": {
+          "problem": "General business inefficiency",
+          "who_has_it": "Small business owners and freelancers",
+          "how_often": "Daily operational challenges",
+          "current_solution": "Manual processes, spreadsheets",
+          "source_signal": {
+            "source": "Indie Hackers",
+            "text": "How I recovered 30% of lost revenue with better dunning",
+            "date": "2026-09-21T03:40:21.910200",
+            "author": "@saas_jane",
+            "query_matched": "revenue OR MRR OR launched"
+          },
+          "pain_level": "medium"
+        }
+      },
+      "timestamp": "2026-09-21T03:40:21.910273"
+    }
+  ]
+}
